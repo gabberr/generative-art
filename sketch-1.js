@@ -47,7 +47,7 @@ const sketch = () => {
             context.font = `${radius * width}px "Helvetica"`;
             context.translate(x, y);
             context.rotate(rotation);
-            context.fillText("8", 0, 0);
+            context.fillText("±", 0, 0);
             context.restore();
         });
     };
